@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>WebTest | Atas-Parit</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+	</head>
+  
+  <!-- BATAS ANTARA HEAD DAN BODY -->
+
+ <body>
+   <py-config>
+     packages = ["time", "requests"]
+   </py-config>
+   <py-config>
+     from time import gmtime, strftime
+     strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime())
+   </py-config>
+ </body>
+</html>
